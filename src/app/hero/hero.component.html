@@ -1,0 +1,15 @@
+<div [class.hero-container-shrunk]="isShrunk" class="hero">
+  <div class="logo-container" [class.mobile-logo]="isMobile || isShrunk">
+    <img src="assets/calendar-cutout.png" alt="Logo" class="logo" />
+  </div>
+  <div [class.remove]="isShrunk" class="mt-5 hero-content text-center text-white">
+    <h1>Welcome to Tua Mexican Restaurant</h1>
+    <div class="order-buttons">
+      <div class="button-group">
+        <a target="_blank" href="https://www.grubhub.com/restaurant/tua-cocina-11-van-wyck-rd-blauvelt/7125280" class="order-button grubhub">
+          <img class="image" height="125" width="250" src="assets/grubhub-btn.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

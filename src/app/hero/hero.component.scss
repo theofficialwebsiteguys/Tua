@@ -43,6 +43,28 @@
   height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero {
+    background-size: cover; /* Ensures the background image covers the container */
+    background-position: center center; /* Centers the image */
+    background-attachment: scroll; /* Avoids the parallax effect on mobile */
+  }
+
+
+  .subtitle {
+    font-size: 28px; /* Slightly smaller font size for smaller screens */
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+
 @media (max-width: 1024px) {
   .hero-content {
     margin-top: 200px !important;

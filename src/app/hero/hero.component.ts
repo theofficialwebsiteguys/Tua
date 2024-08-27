@@ -32,8 +32,6 @@ export class HeroComponent implements OnInit, OnDestroy {
         this.cdr.detectChanges(); // Trigger change detection immediately
       }
     });
-    this.checkScreenSize();
-    window.addEventListener('resize', this.checkScreenSize.bind(this));
   }
 
   ngOnDestroy(): void {
@@ -43,16 +41,6 @@ export class HeroComponent implements OnInit, OnDestroy {
     window.removeEventListener('resize', this.checkScreenSize.bind(this));
   }
 
-  @HostListener('window:scroll', ['$event'])
-  onWindowScroll(event: Event): void {
-    const scrollPosition = window.pageYOffset;
-    const heroContainer = document.querySelector('.hero') as HTMLElement;
-
-    if (heroContainer) {
-      const newPosition = scrollPosition * -0.3;
-      heroContainer.style.backgroundPosition = `center ${newPosition}px`;
-    }
-  }
 
   checkScreenSize(): void {
     this.isMobile = window.innerWidth <= 1024;

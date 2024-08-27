@@ -32,6 +32,8 @@ export class HeroComponent implements OnInit, OnDestroy {
         this.cdr.detectChanges(); // Trigger change detection immediately
       }
     });
+    this.checkScreenSize();
+    window.addEventListener('resize', this.checkScreenSize.bind(this));
   }
 
   ngOnDestroy(): void {

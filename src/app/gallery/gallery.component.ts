@@ -24,8 +24,6 @@ export class GalleryComponent {
     { src: 'assets/bar8.jpg', alt: 'Restaurant Interior 2' },
     { src: 'assets/bar9.jpg', alt: 'Restaurant Interior 1' },
     { src: 'assets/desert1.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/drink1.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/drink2.jpg', alt: 'Restaurant Interior 2' },
     { src: 'assets/food1.jpg', alt: 'Restaurant Interior 2' },
     { src: 'assets/food2.jpg', alt: 'Restaurant Interior 2' },
     { src: 'assets/food3.jpg', alt: 'Restaurant Interior 2' },

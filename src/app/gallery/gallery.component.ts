@@ -22,16 +22,7 @@ export class GalleryComponent {
     { src: 'assets/bar6.jpg', alt: 'Restaurant Interior 1' },
     { src: 'assets/bar7.jpg', alt: 'Restaurant Interior 2' },
     { src: 'assets/bar8.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/bar9.jpg', alt: 'Restaurant Interior 1' },
-    { src: 'assets/desert1.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/food1.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/food2.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/food3.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/food4.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/table1.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/table2.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/table3.jpg', alt: 'Restaurant Interior 2' },
-    { src: 'assets/table4.jpg', alt: 'Restaurant Interior 2' },
+
     // Add more images as needed
   ];
 }
